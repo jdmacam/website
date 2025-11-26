@@ -1,236 +1,291 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE>
+<>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        body {
-            background-image: url('https://imgcdn.stablediffusionweb.com/2024/11/1/b2cd8183-20c7-4d61-9f26-26e323d53083.jpg');
-            background-size: 150px;
-            padding: 20px;
-        }
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            body {
+                background-image: url('https://imgcdn.stablediffusionweb.com/2024/11/1/b2cd8183-20c7-4d61-9f26-26e323d53083.jpg');
+                background-size: 150px;
+                padding: 20px;
+            }
 
-        h1 {
-            background-color: rgba(255,255,255, .8);
-        }
+            h1 {
+                background-color: rgba(255, 255, 255, .8);
+            }
 
-        p {
-            background: rgba(255,255,255, .5);
-        }
-        #topsection{
-            border-radius: 50px;
-            background: rgba(248, 178, 41,.95);
-        }
+            p {
+                background: rgba(255, 255, 255, .5);
+            }
 
-        #amazon {
-            border-radius: 25px;
-            background: rgba(35, 94, 111, .95);;
+            #topsection {
+                border-radius: 50px;
+                background: rgba(248, 178, 41, .95);
+            }
 
-        }
-        #xmaslist {
-            border-radius: 25px;
-            background: rgba(22, 91, 51,.95);
-        }
+            #amazon {
+                border-radius: 25px;
+                background: rgba(35, 94, 111, .95);
+                ;
 
-        #topsection,
-        #amazon,
-        #xmaslist{
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        
-        .xmas-row{
-            padding-top: 125px
-            padding-bottom: 125px;
-            height: 300px;
-        }
+            }
 
-        .image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .image img{
-            height: 200px;
-        }
+            #xmaslist {
+                border-radius: 25px;
+                background: rgba(22, 91, 51, .95);
+            }
 
-        .item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bolder;
-            /* border-right: dotted; */
-        }
+            #topsection,
+            #amazon,
+            #xmaslist {
+                padding: 20px;
+                margin-bottom: 10px;
+            }
 
-        .link {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* border-left: dotted; */
-            font-size: xx-large;
-        }
+            .xmas-row {
+                padding-top: 125px;
+                padding-bottom: 125px;
+                height: 300px;
+            }
 
-        #giftcards{
-            border-radius: 25px;
-            background: rgba(35, 94, 111, .95);
-        }
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-        #giftcards img{
-            height: 100px;
-        }
-        
+            .image img {
+                height: 200px;
+            }
 
-    </style>
-</head>
+            .item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bolder;
+                /* border-right: dotted; */
+            }
 
-<body>
-    <section class="p-6 text-center" id="topsection">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">🎄<br>Joe's Xmas List</h1>
-                <p class="text-body-secondary">Graphic design is NOT my passion</p>
-                <p class="text-body-secondary">Also this looks better on mobile and doo doo on PC 🤷‍♂️</p>
-                <img src="images/xmas/xmas1.png">
+            .link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* border-left: dotted; */
+                font-size: xx-large;
+            }
+
+            #giftcards {
+                border-radius: 25px;
+                background: rgba(35, 94, 111, .95);
+            }
+
+            #giftcards img {
+                height: 100px;
+            }
+
+            .album {
+                border-radius: 25px;
+                --bs-bg-opacity: .5;
+                background-color: rgba(22, 91, 51, .95) !important;
+                margin-bottom: 1%;
+            }
+
+            .card {
+                border-radius: 25px;
+                background-color: rgba(35, 94, 111);
+            }
+
+            .card-text {
+                background-color: rgba(35, 94, 111);
+                color: white;
+                font-size: x-large;
+                text-align: center;
+            }
+
+            .row {
+                margin-bottom: 10%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="p-6 text-center" id="topsection">
+            <div class="py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">🎄<br>Joe's Xmas List</h1>
+                    <p class="text-body-secondary">Graphic design is NOT my passion</p>
+                    <p class="text-body-secondary">*More to be added...*</p>
+                    <img src="images/xmas/xmas2.png" style="max-height:300px;width:700px;height: auto; width: auto;">
+                </div>
+            </div>
+            <br>
+            <audio controls autoplay id="myaudio">
+                <source src="images/xmas/jbr.mp3">
+            </audio>
+
+            <script>
+                var audio = document.getElementById("myaudio");
+                audio.volume = 0.02;
+            </script>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="row gc-row text-center">
+                    <h1>Wish List</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <a href="https://www.amazon.com/hz/wishlist/ls/2T3EWYPXI35LX?ref_=wl_share" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/amazon.png">
+                                <div class="card-body">
+                                    <p class="card-text">Amazon Wishlist</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.sheethappenspublishing.com/collections/chon/products/chon-grow-complete-guitar-transcription?variant=40629771894965" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/chon.png">
+                                <div class="card-body">
+                                    <p class="card-text">Chon - Grow Tab Book</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.southord.com/collections/lock-pick-sets-standard/products/lock-pick-set-5-piece-pxs-05l" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/lockpick.png">
+                                <div class="card-body">
+                                    <p class="card-text">Southord Lockpick set</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://familytreedesign.net/collections/all/products/the-belafonte?variant=39863699570740" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/belafonte.png">
+                                <div class="card-body">
+                                    <p class="card-text">Belafonte Art Print (13x19)</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://shop.in-n-out.com/collections/new-items-2/products/white-drink-cup-socks-by-stance%C2%AE?variant=44287830556910" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/socks.png">
+                                <div class="card-body">
+                                    <p class="card-text">In-n-Out Socks (size L)</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.fangamer.com/collections/balatro/products/balatro-playing-cards" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/balatro.jpg">
+                                <div class="card-body">
+                                    <p class="card-text">Balatro Playing Card Deck</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.fangamer.com/products/pizza-tower-red-cup" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/pizzatower.png">
+                                <div class="card-body">
+                                    <p class="card-text">Peppino's Pizza Cup</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.fangamer.com/products/monster-hunter-element-poster" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/monsterhunter.png">
+                                <div class="card-body">
+                                    <p class="card-text">Elemental Monsters print</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://riserecords.com/products/snvrstayyp-lp" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/sianvar.png">
+                                <div class="card-body">
+                                    <p class="card-text">Sianvar - Stay Lost vinyl</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a
+                            href="https://www.ebay.com/sch/i.html?_nkw=psi-ops+ps2&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=psy-ops+ps2&_osacat=0" target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/psiops.png">
+                                <div class="card-body">
+                                    <p class="card-text">Psi-Ops: The Mindgate Conspiracy (PS2) (Used) [Game AND Manual]</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <br>
-        <audio controls autoplay id="myaudio">
-            <source src="images/xmas/jbr.mp3">
-          </audio>
-          
-          <script>
-            var audio = document.getElementById("myaudio");
-            audio.volume = .1;
-          </script>
-    </section>
 
-    <div class="container " id="amazon">
-        <div class="row gc-row text-center"> <h1>Amazon Wish List</h1> </div>
-        <br>
-        <div class="row gc-row">
-            <div class="image col-sm-12">
-                <a href="https://www.amazon.com/hz/wishlist/ls/2T3EWYPXI35LX?ref_=wl_share">
-                    <img src="images/xmas/amazon.png" style="height: 100px;">
-                </a>
+        <!--  ---------------------------------------------------------------------------------------- -->
+        <div class="container " id="giftcards">
+            <div class="row gc-row text-center" style="padding-bottom: 1%;">
+                <h1>Gift Cards</h1>
             </div>
-        </div>
-    </div>
-
-    <div class="container " id="xmaslist">
-        <div class="row gc-row text-center"> <h1>Non-Amazon</h1> </div>
-        <div class="row xmas-row border-bottom">
-            <div class="item col-md-4">
-                <p>Chon - Grow Tab Book</p> <br>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="row gc-row">
+                    <div class="image col-sm-12">
+                        <a href="https://store.steampowered.com/digitalgiftcards/" target="_blank">
+                            <img src="images/xmas/steam.png">
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="row gc-row text-center">
+                    <span style="color: white;"> NuPhy Keyboards</span>
+                    <div class="image col-sm-12">
+                        <a href="https://nuphy.com/products/gift-card" target="_blank">
+                            <img src="images/xmas/nuphy.png">
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="row gc-row text-center">
+                    <div class="image col-sm-12">
+                        <a href="https://www.rei.com/gift-card/purchase" target="_blank">
+                            <img src="images/xmas/rei.jpg">
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="row gc-row text-center">
+                    <div class="image col-sm-12">
+                        <a href="https://www.in-n-out.com/gift-cards" target="_blank">
+                            <img src="images/xmas/innout.png">
+                        </a>
+                    </div>
+                </div>
+                <br>
             </div>
-            <div class="image col-md-4">
-                <img src="images/xmas/chon.png">
-            </div>
-            <div class="link col-md-4">
-                <a href="https://www.sheethappenspublishing.com/collections/chon/products/chon-grow-complete-guitar-transcription?variant=40629771894965"> Link </a>
-            </div>
-        </div>
-        <br>
-
-
-        <div class="row xmas-row border-bottom">
-            <div class="item col-md-4">
-                <p>Southord Lockpick Set</p>  <br>
-            </div>
-            <div class="image col-md-4">
-                <img src="images/xmas/lockpick.png">
-            </div>
-            <div class="link col-md-4">
-                <a href="https://www.southord.com/collections/lock-pick-sets-standard/products/lock-pick-set-5-piece-pxs-05l"> Link </a>
-            </div>
-        </div>
-        <br>
 
 
-        <div class="row xmas-row border-bottom">
-            <div class="item col-md-4">
-                <p>Belafonte Art Print (13x19)</p>  <br>
-            </div>
-            <div class="image col-md-4">
-                <img src="images/xmas/belafonte.png">
-            </div>
-            <div class="link col-md-4">
-                <a href="https://familytreedesign.net/collections/all/products/the-belafonte?variant=39863699570740"> Link </a>
-            </div>
-        </div>
-        <br>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+    </body>
 
-        <div class="row xmas-row border-bottom">
-            <div class="item col-md-4">
-                <p>Grand Budapest Hotel Art Print (13x19)</p>  <br>
-            </div>
-            <div class="image col-md-4">
-                <img src="images/xmas/budapest.png">
-            </div>
-            <div class="link col-md-4">
-                <a href="https://familytreedesign.net/collections/all/products/the-grand-budapest-hotel?variant=39863699406900"> Link </a>
-            </div>
-        </div>
-        <br>
-        <div class="row xmas-row border-bottom">
-            <div class="item col-md-4">
-                <p>In-n-Out Socks (size L))</p>  <br>
-            </div>
-            <div class="image col-md-4">
-                <img src="images/xmas/socks.png">
-            </div>
-            <div class="link col-md-4">
-                <a href="https://shop.in-n-out.com/collections/new-items-2/products/white-drink-cup-socks-by-stance%C2%AE?variant=44287830556910"> Link </a>
-            </div>
-        </div>
-        <br>
-    </div>
-
-    <div class="container " id="giftcards">
-        <div class="row gc-row text-center"> <h1>Gift Cards</h1> </div>
-        <br>
-        <div class="row gc-row">
-            <div class="image col-sm-12">
-                <a href="https://store.steampowered.com/digitalgiftcards/">
-                    <img src="images/xmas/steam.png">
-                </a>
-            </div>
-        </div>
-        <br>
-        <div class="row gc-row text-center">
-            <span style="color: white;"> NuPhy Keyboards</span>
-            <div class="image col-sm-12">
-                <a href="https://nuphy.com/products/gift-card">
-                    <img src="images/xmas/nuphy.png">
-                </a>
-            </div>
-        </div>
-        <br>
-        <div class="row gc-row text-center">
-            <div class="image col-sm-12">
-                <a href="https://www.rei.com/gift-card/purchase">
-                    <img src="images/xmas/rei.jpg">
-                </a>
-            </div>
-        </div>
-        <br>
-        <div class="row gc-row text-center">
-            <div class="image col-sm-12">
-                <a href="https://www.in-n-out.com/gift-cards">
-                    <img src="images/xmas/innout.png">
-                </a>
-            </div>
-        </div>
-        <br>
-        </div>
-
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+</>
