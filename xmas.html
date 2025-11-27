@@ -23,23 +23,15 @@
 
             #topsection {
                 border-radius: 50px;
-                background: rgba(248, 178, 41, .95);
-            }
-
-            #amazon {
-                border-radius: 25px;
-                background: rgba(35, 94, 111, .95);
-                ;
-
+                background: rgba(248, 178, 41, .9);
             }
 
             #xmaslist {
                 border-radius: 25px;
-                background: rgba(22, 91, 51, .95);
+                background: rgba(22, 91, 51, .5);
             }
 
             #topsection,
-            #amazon,
             #xmaslist {
                 padding: 20px;
                 margin-bottom: 10px;
@@ -79,7 +71,7 @@
 
             #giftcards {
                 border-radius: 25px;
-                background: rgba(35, 94, 111, .95);
+                background: rgba(35, 94, 111, .9);
             }
 
             #giftcards img {
@@ -89,7 +81,7 @@
             .album {
                 border-radius: 25px;
                 --bs-bg-opacity: .5;
-                background-color: rgba(22, 91, 51, .95) !important;
+                background-color: rgba(22, 91, 51, .9) !important;
                 margin-bottom: 1%;
             }
 
@@ -106,7 +98,7 @@
             }
 
             .row {
-                margin-bottom: 10%;
+                /* margin-bottom: 10%; */
             }
         </style>
     </head>
@@ -128,16 +120,16 @@
 
             <script>
                 var audio = document.getElementById("myaudio");
-                audio.volume = 0.02;
+                audio.volume = 0.0;
             </script>
         </section>
 
         <div class="album py-5 bg-body-tertiary">
             <div class="container">
-                <div class="row gc-row text-center">
+                <div class="row text-center">
                     <h1>Wish List</h1>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 gx-6 gy-4">
                     <div class="col">
                         <a href="https://www.amazon.com/hz/wishlist/ls/2T3EWYPXI35LX?ref_=wl_share" target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/amazon.png">
@@ -148,8 +140,8 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.sheethappenspublishing.com/collections/chon/products/chon-grow-complete-guitar-transcription?variant=40629771894965" target="_blank">
+                        <a href="https://www.sheethappenspublishing.com/collections/chon/products/chon-grow-complete-guitar-transcription?variant=40629771894965"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/chon.png">
                                 <div class="card-body">
                                     <p class="card-text">Chon - Grow Tab Book</p>
@@ -158,8 +150,8 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.southord.com/collections/lock-pick-sets-standard/products/lock-pick-set-5-piece-pxs-05l" target="_blank">
+                        <a href="https://www.southord.com/collections/lock-pick-sets-standard/products/lock-pick-set-5-piece-pxs-05l"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/lockpick.png">
                                 <div class="card-body">
                                     <p class="card-text">Southord Lockpick set</p>
@@ -168,8 +160,8 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://familytreedesign.net/collections/all/products/the-belafonte?variant=39863699570740" target="_blank">
+                        <a href="https://familytreedesign.net/collections/all/products/the-belafonte?variant=39863699570740"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/belafonte.png">
                                 <div class="card-body">
                                     <p class="card-text">Belafonte Art Print (13x19)</p>
@@ -178,8 +170,8 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://shop.in-n-out.com/collections/new-items-2/products/white-drink-cup-socks-by-stance%C2%AE?variant=44287830556910" target="_blank">
+                        <a href="https://shop.in-n-out.com/collections/new-items-2/products/white-drink-cup-socks-by-stance%C2%AE?variant=44287830556910"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/socks.png">
                                 <div class="card-body">
                                     <p class="card-text">In-n-Out Socks (size L)</p>
@@ -188,8 +180,8 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.fangamer.com/collections/balatro/products/balatro-playing-cards" target="_blank">
+                        <a href="https://www.fangamer.com/collections/balatro/products/balatro-playing-cards"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/balatro.jpg">
                                 <div class="card-body">
                                     <p class="card-text">Balatro Playing Card Deck</p>
@@ -198,8 +190,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.fangamer.com/products/pizza-tower-red-cup" target="_blank">
+                        <a href="https://www.fangamer.com/products/pizza-tower-red-cup" target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/pizzatower.png">
                                 <div class="card-body">
                                     <p class="card-text">Peppino's Pizza Cup</p>
@@ -208,8 +199,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.fangamer.com/products/monster-hunter-element-poster" target="_blank">
+                        <a href="https://www.fangamer.com/products/monster-hunter-element-poster" target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/monsterhunter.png">
                                 <div class="card-body">
                                     <p class="card-text">Elemental Monsters print</p>
@@ -218,8 +208,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://riserecords.com/products/snvrstayyp-lp" target="_blank">
+                        <a href="https://riserecords.com/products/snvrstayyp-lp" target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/sianvar.png">
                                 <div class="card-body">
                                     <p class="card-text">Sianvar - Stay Lost vinyl</p>
@@ -228,11 +217,22 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a
-                            href="https://www.ebay.com/sch/i.html?_nkw=psi-ops+ps2&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=psy-ops+ps2&_osacat=0" target="_blank">
+                        <a href="https://www.ebay.com/sch/i.html?_nkw=psi-ops+ps2&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=psy-ops+ps2&_osacat=0"
+                            target="_blank">
                             <div class="card shadow-sm"> <img src="images/xmas/psiops.png">
                                 <div class="card-body">
-                                    <p class="card-text">Psi-Ops: The Mindgate Conspiracy (PS2) (Used) [Game AND Manual]</p>
+                                    <p class="card-text">Psi-Ops: The Mindgate Conspiracy (PS2) (Used) [Game AND Manual]
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.ebay.com/sch/i.html?_nkw=vintage+flask&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313"
+                            target="_blank">
+                            <div class="card shadow-sm"> <img src="images/xmas/hipflask.jpg">
+                                <div class="card-body">
+                                    <p class="card-text">Vintage / Unique hip flasks</p>
                                 </div>
                             </div>
                         </a>
@@ -243,11 +243,11 @@
 
         <!--  ---------------------------------------------------------------------------------------- -->
         <div class="container " id="giftcards">
-            <div class="row gc-row text-center" style="padding-bottom: 1%;">
+            <div class="row text-center" style="padding-bottom: 1%;">
                 <h1>Gift Cards</h1>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="row gc-row">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="row">
                     <div class="image col-sm-12">
                         <a href="https://store.steampowered.com/digitalgiftcards/" target="_blank">
                             <img src="images/xmas/steam.png">
@@ -255,7 +255,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row gc-row text-center">
+                <div class="row text-center">
                     <span style="color: white;"> NuPhy Keyboards</span>
                     <div class="image col-sm-12">
                         <a href="https://nuphy.com/products/gift-card" target="_blank">
@@ -264,7 +264,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row gc-row text-center">
+                <div class="row text-center">
                     <div class="image col-sm-12">
                         <a href="https://www.rei.com/gift-card/purchase" target="_blank">
                             <img src="images/xmas/rei.jpg">
@@ -272,7 +272,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="row gc-row text-center">
+                <div class="row text-center">
                     <div class="image col-sm-12">
                         <a href="https://www.in-n-out.com/gift-cards" target="_blank">
                             <img src="images/xmas/innout.png">
